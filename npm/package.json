@@ -1,0 +1,36 @@
+{
+  "name": "railguard",
+  "version": "0.1.0",
+  "description": "Runtime guardrails for AI agents — protect your system from destructive commands",
+  "bin": {
+    "railguard": "./bin/railguard"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "keywords": [
+    "ai",
+    "agents",
+    "safety",
+    "guardrails",
+    "claude",
+    "claude-code",
+    "runtime",
+    "security"
+  ],
+  "author": "Railguard <hello@railguard.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/railguard-dev/railguard"
+  },
+  "homepage": "https://github.com/railguard-dev/railguard",
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ]
+}
